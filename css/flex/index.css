@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    height: 100vh;
+    background: #9c6c6c;
+   
+}
+.flex{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    
+}
+.flex1{
+   float: left;
+   margin-left: 50px;
+}
+.flex2{
+  float: left;
+  margin-left: 100px;
+}
+.flex3{
+    float: left;
+    margin-left: 100px;
+    
+}
+.flex4{
+ float:right;
+ margin-right: 50px;
+}
