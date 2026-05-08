@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    height: 100vh;
+    background-color: #c2baba;
+    margin: auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box1{
+    margin: 0 0 0 50px;
+}
+
+.box2,.box3{
+    margin: 0 0 0 100px;
+}
+
+.box4{
+    float: right;
+    margin: 0 50px 0 0;
+}
