@@ -11,22 +11,10 @@
 
 }
 
-.container .div {
+.container > .div {
     width: 200px;
     height: 200px;
     border: 1px solid rgb(8, 8, 8);
 }
 
-.container >.div {
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-}
 
-
-
-/* .div{
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-} */

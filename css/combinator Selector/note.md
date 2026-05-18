@@ -1,7 +1,6 @@
 Descendant combinator (space)
 Child combinator (>)
-
-And (.item1.item2)
+ AND condition combinator (.item.item1)
 Next sibling combinator (+)
 Subsequent-sibling combinator (~)
 
