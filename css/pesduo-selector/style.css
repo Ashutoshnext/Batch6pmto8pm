@@ -16,13 +16,35 @@
     width: 200px;
     height: 200px;
     border: 1px solid red;
+    /* background-color: #513c3c; */
 }
 
-/* .flex:first-child(){
-    background-color: #08490d;
-    
+/* .flex:nth-child(1){
+    background-color: #8b8181;
+}
+
+.flex:nth-child(2){
+    background-color: #ec8080;
+}
+.flex:nth-child(3){
+    background-color: #731d1d;
 } */
 
-.flex:nth-child(1){
-    background-color: #534949;
+/* .flex:nth-child(odd){
+    background-color: #932828;
 }
+
+.flex:nth-child(even){
+    background-color: #9c7e7e;
+} */
+
+
+/* .flex:hover{
+    scale: 1.2;
+} */
+
+/* :active 
+:checked */
+
+
+
