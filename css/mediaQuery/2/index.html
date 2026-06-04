@@ -12,10 +12,53 @@
             box-sizing: border-box;
         }
 
-        .container{
+        .container {
             width: 100%;
             background-color: #841b1b;
             height: 100vh;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        @media (max-width:1080px) and (min-width:750px) {
+            .container {
+                width: 100%;
+                background-color: #1b8426;
+                height: 100vh;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+        }
+
+         @media (max-width:750px) and (min-width:0px) {
+            .container {
+                width: 100%;
+                background-color: #0d0d0d;
+                height: 100vh;
+                color: aliceblue;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
         }
     </style>
 </head>
